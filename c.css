@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+}
+h2
+{
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+}
+.starting-soon
+{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(3, 154, 159);
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.coming-soon
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(3, 154, 159);
+}
+.countdown 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.day,
+.hour,
+.minute,
+.second
+{
+    font-size: 3rem;
+}
+.waiting
+{
+    height: 50vh;
+}
